@@ -1,0 +1,22 @@
+{
+    "name": "@etsitpab/structview",
+    "description": "Class used serialize / deserialize structure to and from binary representation.",
+    "author": "Baptiste Mazin",
+    "license": "ISC",
+    "repository": "git@bitbucket.org:baptiste_mazin/usbptpdevice.git",
+    "version": "1.0.0",
+    "keywords": [],
+    "type": "module",
+    "main": "./src/StructView.class.js",
+    "exports": "./src/StructView.class.js",
+    "scripts": {
+        "test": "jest --coverage",
+        "clean": "rm -rf package-lock.json node_modules",
+        "console": "node --input-type=module --eval \"import StructView from '@etsitpab/structview'; console.log(StructView);\""
+    },
+    "dependencies": {},
+    "devDependencies": {
+        "@babel/preset-env": "^7.8.4",        
+        "jest": "^25.1.0"
+    }
+}
